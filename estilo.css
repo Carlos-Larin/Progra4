@@ -1,0 +1,19 @@
+p,li{
+    background-color: red;
+    font-size: large;
+    font-family:verdana;
+}
+body{
+    background-image: url(https://egamersworld.com/cdn-cgi/image/width=690,quality=75,format=webp/uploads/blog/1687874834801.webp);
+}
+h1{
+    background-color: rgb(0, 179, 255);
+}
+
+.divel{
+    border: 10px solid color( rgb(255, 0, 166));
+}
+
+div{
+    border: 1px color( rgb(255, 0, 166));
+}
