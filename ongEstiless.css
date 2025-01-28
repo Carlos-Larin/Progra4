@@ -1,0 +1,24 @@
+.tablaAnimal{
+    background-color: aqua;
+}
+
+.imagenes{
+    background-color: black;
+}
+
+.huellas{
+    background-image: url(https://media.istockphoto.com/id/1388281684/es/vector/patrón-de-perro-sin-costuras-con-huellas-de-patas-huesos-corazones-y-bolas-textura-de-pie-de.jpg?s=612x612&w=0&k=20&c=NNooDEprR5V5eK_3WLaBsPcKBVmoAUKe9mkzHP2D7pI=);
+}
+
+body {
+    margin-bottom: 50px;
+}
+
+footer{
+    margin-top: 300px;
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(90, 176, 19);
+    color: white;
+  }
+
