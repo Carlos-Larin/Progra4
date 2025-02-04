@@ -1,19 +1,24 @@
-p,li{
+p, li {
     background-color: red;
     font-size: large;
-    font-family:verdana;
+    font-family: verdana, sans-serif;
 }
-body{
-    background-image: url(https://egamersworld.com/cdn-cgi/image/width=690,quality=75,format=webp/uploads/blog/1687874834801.webp);
+
+body {
+    background-image: url("https://egamersworld.com/cdn-cgi/image/width=690,quality=75,format=webp/uploads/blog/1687874834801.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-h1{
+
+h1 {
     background-color: rgb(0, 179, 255);
+    color: white; /* Mejor contraste para el texto */
 }
 
-.divel{
-    border: 10px solid color( rgb(255, 0, 166));
+.divel {
+    border: 10px solid rgb(255, 0, 166); /* Ancho, estilo y color */
 }
 
-div{
-    border: 1px color( rgb(255, 0, 166));
+div {
+    border: 1px solid rgb(255, 0, 166); /* Ancho, estilo y color */
 }
