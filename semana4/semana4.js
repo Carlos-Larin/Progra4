@@ -33,3 +33,15 @@ window.addEventListener('load', function() {
     console.log('La página se ha cargado completamente');
     this.alert('¡La página se ha cargado completamente!');
 });
+
+// 7. Evento para revelar la respuestas
+document.getElementById('verRespuestas').addEventListener('click', function() {
+    const answers = document.querySelectorAll('.grid-item:nth-child(even)');
+    answers.forEach(answer => {
+        if (answer.style.visibility === 'hidden') {
+            answer.style.visibility = 'visible';
+        } else {
+            answer.style.visibility = 'hidden';
+        }
+    });
+});
