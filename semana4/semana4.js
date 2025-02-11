@@ -1,6 +1,6 @@
 // 1. Evento de clic
 document.querySelector('.grid-item:nth-child(2)').addEventListener('click', function() {
-    alert('¡Gracias por admirar a tu mamá!');
+    alert('¡UN SALUDOOOOO!');
 });
 
 // 2. Evento de ratón encima
